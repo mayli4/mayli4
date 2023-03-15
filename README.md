@@ -18,5 +18,4 @@
     
     
   <h6>they/them  | 15 </h6>
-  <h7> cleo </h7>
 </samp>
