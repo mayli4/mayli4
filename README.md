@@ -12,7 +12,7 @@
     
 <hr>
     <div align="">
-      <img width="40%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=17soju&layout=compact&bg_color=00000000&text_color=adbac7">
+      <img width="40%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=inkster12&layout=compact&bg_color=00000000&text_color=adbac7">
     </div>
 </hr>
     
