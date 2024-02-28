@@ -4,4 +4,5 @@
 > @inkster12
 
 amateur hobbyist programmer, mostly game development.
-2+ years of experience with C#, slowly diving into shader programming with GLSL and HLSL.
+
+slowly diving into shader programming with GLSL and HLSL.
