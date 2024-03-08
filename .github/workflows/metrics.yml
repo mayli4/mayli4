@@ -16,7 +16,7 @@ jobs :
 
           # config
           user : mayli4
-          base : header, activity, community, repositories, metadata
+          base : header, activity, repositories
           base_indepth : yes
           config_octicon : yes
           config_timezone : America/Michigan
