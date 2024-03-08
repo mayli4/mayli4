@@ -1,10 +1,10 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -14,46 +14,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: inkster12
-          template: classic
-          base: header, activity, community, repositories, metadata
-          base_hireable: yes
-          base_indepth: yes
-          config_octicon: yes
-          config_timezone: America/Los_Angeles
-          config_twemoji: yes
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          plugin_languages: no
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          plugin_notable: no
-          plugin_notable_filter: stars:>100
-          plugin_notable_from: all
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
-          plugin_notable_self: yes
-          plugin_notable_types: commit, pull_request
-          repositories_affiliations: 
-          repositories_forks: yes
+          user: DominicKarma
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: C#, HLSL
+          plugin_code_load: 400
+          plugin_code_days: 60
+          plugin_code_lines: 64
