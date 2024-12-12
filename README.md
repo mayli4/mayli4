@@ -1,4 +1,4 @@
-![](https://media1.tenor.com/m/CqoIBXTZIMQAAAAd/meme-band.gif)
+![](https://media1.tenor.com/m/u_dt3HsrCVcAAAAd/sea-slug.gif)
 
 # mayli4 / math2
 
