@@ -1,6 +1,4 @@
-<picture>
-  <img align="right" src="/github-metrics.svg" alt="Metrics" width="400">
-</picture>
+![](https://media1.tenor.com/m/CqoIBXTZIMQAAAAd/meme-band.gif)
 
 # mayli4 / math2
 
