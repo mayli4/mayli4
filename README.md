@@ -2,10 +2,6 @@
 
 ---
 
-i am an amateur hobbyist programmer, none of what i do is professional in any way so dont expect anything of substance on here
-
-learning graphics programming
-
-i like producing music :)
+amateur graphics programmer and game modder
 
 ![](https://media1.tenor.com/m/u_dt3HsrCVcAAAAd/sea-slug.gif)
